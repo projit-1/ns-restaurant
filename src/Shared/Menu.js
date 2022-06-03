@@ -1,14 +1,16 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Menu = () => {
     return (
         <div class="navbar bg-base-100">
 
+
             <div class="flex-none">
                 <ul class="menu menu-horizontal p-0">
-                    <li><a>Item 1</a></li>
-                    <li><a>Item 3</a></li>
-                    <li><a>Item 3</a></li>
+                    <li><a>Breakefast</a></li>
+                    <li><a>Lunch</a></li>
+                    <li><a>Dinner</a></li>
                 </ul>
             </div>
         </div>

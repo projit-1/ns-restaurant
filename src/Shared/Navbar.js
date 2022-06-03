@@ -1,10 +1,11 @@
 import React from 'react';
+import logo from '../../src/Images/logo2.png'
 
 const Navbar = () => {
     return (
         <div class="navbar bg-base-100">
             <div class="flex-1">
-                <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+                <img className='w-24' src={logo} alt="" />
             </div>
             <div class="flex-none">
                 <div class="dropdown dropdown-end">
