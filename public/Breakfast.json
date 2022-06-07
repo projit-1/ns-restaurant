@@ -1,0 +1,44 @@
+[
+    {
+        "_id": 1,
+        "name": "Breakfast-1",
+        "image": "https://i.ibb.co/JxvMd2H/breakfast1.png",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": "10"
+    },
+    {
+        "_id": 2,
+        "name": "Breakfast-2",
+        "image": "https://i.ibb.co/1vdsSSk/breakfast2.png",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": "10"
+    },
+    {
+        "_id": 3,
+        "name": "Breakfast-3",
+        "image": "https://i.ibb.co/jy476G7/breakfast3.png",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": "10"
+    },
+    {
+        "_id": 4,
+        "name": "Breakfast-4",
+        "image": "https://i.ibb.co/RCC65Gz/breakfast4.png",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": "10"
+    },
+    {
+        "_id": 5,
+        "name": "Breakfast-5",
+        "image": "https://i.ibb.co/mFhKYHZ/breakfast5.png",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": "10"
+    },
+    {
+        "_id": 6,
+        "name": "Breakfast-6",
+        "image": "https://i.ibb.co/2vfzP6P/breakfast6.png",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": "10"
+    }
+]

@@ -3,15 +3,15 @@ import { NavLink } from 'react-router-dom';
 
 const Menu = () => {
     return (
-        <div class="navbar bg-base-100">
+        <div className="navbar bg-base-100">
 
 
-            <div class="flex-none">
-                <ul class="menu menu-horizontal p-0">
-                    <li><a>Breakefast</a></li>
-                    <li><a>Lunch</a></li>
-                    <li><a>Dinner</a></li>
-                </ul>
+            <div className="grid justify-center items-center  mx-auto">
+                <div className="flex mx-auto">
+                    <NavLink to='/breakfast' className='mx-5'> Breakfast</NavLink>
+                    <NavLink to='/lunch' className='mx-5'> Lunch</NavLink>
+                    <NavLink to='/dinner' className='mx-5'> Dinner</NavLink>
+                </div>
             </div>
         </div>
     );

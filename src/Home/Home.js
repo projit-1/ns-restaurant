@@ -1,14 +1,17 @@
 import React from 'react';
-import Menu from '../Shared/Menu';
-import Navbar from '../Shared/Navbar';
-import Banner from './Banner';
+import Button from '../Home/Button';
+import Footer from '../Shared/Footer';
+import Services from './Services';
+
+
+
 
 const Home = () => {
     return (
         <div>
-            <Navbar></Navbar>
-            <Banner></Banner>
-            <Menu></Menu>
+            <div className='flex items-center justify-center'> <Button>Checkout Your Food</Button></div>
+            <Services></Services>
+            <Footer></Footer>
         </div>
     );
 };
