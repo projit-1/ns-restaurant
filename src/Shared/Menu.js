@@ -5,12 +5,11 @@ const Menu = () => {
     return (
         <div className="navbar bg-base-100">
 
-
             <div className="grid justify-center items-center  mx-auto">
                 <div className="flex mx-auto">
-                    <NavLink to='/breakfast' className='mx-5'> Breakfast</NavLink>
-                    <NavLink to='/lunch' className='mx-5'> Lunch</NavLink>
-                    <NavLink to='/dinner' className='mx-5'> Dinner</NavLink>
+                    <NavLink to='/breakfast' className='mx-3 bg-slate-300 px-2 rounded '> Breakfast</NavLink>
+                    <NavLink to='/lunch' className='mx-3 bg-slate-300 px-2 rounded '> Lunch</NavLink>
+                    <NavLink to='/dinner' className='mx-3 bg-slate-300 px-2 rounded '> Dinner</NavLink>
                 </div>
             </div>
         </div>

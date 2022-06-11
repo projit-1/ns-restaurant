@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <div className="navbar bg-base-100">
             <div className="flex-1">
-                <NavLink to='/'><img className='w-24' src={logo} alt="" /></NavLink>
+                <NavLink to='/breakfast'><img className='w-24' src={logo} alt="" /></NavLink>
             </div>
             <div className="flex-none">
                 <div className="dropdown dropdown-end">
