@@ -11,7 +11,7 @@ const Dinner = ({ dmeal }) => {
     return (
         <div>
             <h2>Deanner: {dmeals.length}</h2>
-            <div className='grid grid-cols-3 gap-5'>
+            <div className='grid lg:grid-cols-3 grid-cols-1 gap-5'>
                 {
                     dmeals.map(dmeal => <Dmeal
                         key={dmeal._id}

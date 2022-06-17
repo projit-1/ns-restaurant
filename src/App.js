@@ -14,10 +14,11 @@ function App() {
       <Navbar></Navbar>
       <Banner></Banner>
       <Menu></Menu>
+
       <Routes>
-        <Route path='/breakfast' element={<Breakfast></Breakfast>}> </Route>
-        <Route path='/lunch' element={<Lunch></Lunch>}></Route>
-        <Route path='/dinner' element={<Dinner></Dinner>}></Route>
+        <Route path='/breakfast' element={<Breakfast />}> </Route>
+        <Route path='/lunch' element={<Lunch />}></Route>
+        <Route path='/dinner' element={<Dinner />}></Route>
       </Routes>
       <Home></Home>
     </div>

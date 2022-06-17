@@ -11,7 +11,7 @@ const Breakfast = ({ meal }) => {
     return (
         <div>
             <h2>breakefast: {meals.length}</h2>
-            <div className='grid grid-cols-3 gap-5'>
+            <div className='grid lg:grid-cols-3 grid-cols-1 gap-5'>
                 {
                     meals.map(meal => <Meal
                         meal={meal}

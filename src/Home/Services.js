@@ -9,7 +9,7 @@ const Services = () => {
             <div> <h2>Why do you choice us</h2>
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, voluptates, quisquam nesciunt corporis deserunt nam doloremque voluptatibus beatae, et quae architecto impedit ea! Pariatur necessitatibus amet magnam ab doloribus ratione?</p></div>
 
-            <div className='grid grid-cols-3 gap-4'>
+            <div className='grid lg:grid-cols-3 grid-cols-1 gap-5'>
                 <div class="card  bg-base-100 shadow-xl">
                     <figure><img src={Services1} alt="Shoes" /></figure>
                     <div class="card-body">
